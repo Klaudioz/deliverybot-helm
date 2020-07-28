@@ -18,5 +18,6 @@ jobs:
         chart: 'app'
         namespace: 'example-helm'
         token: '${{ github.token }}'
+        helm: 'helm3'
       env:
         KUBECONFIG_FILE: '${{ secrets.KUBECONFIG }}'
