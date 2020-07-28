@@ -23,7 +23,7 @@ https://developer.github.com/v3/repos/deployments/.
    provider. [Google cloud instructions](https://cloud.google.com/kubernetes-engine/docs/quickstart).
 
 2. Create a service account for GitHub actions to have access to your cluster.
-   [Follow this gist](https://gist.github.com/innovia/fbba8259042f71db98ea8d4ad19bd708).
+   [Follow this gist](https://gist.github.com/poweroftrue/2aca2bd4f31d307e7dea1797fb089bf3).
 
 3. Copy the created service account into your GitHub repository secrets with the
    name `KUBECONFIG`.
