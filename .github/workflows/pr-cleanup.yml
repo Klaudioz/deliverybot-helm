@@ -16,7 +16,7 @@ jobs:
         version: '${{ github.sha }}'
         track: 'stable'
         chart: 'k8s-chart'
-        namespace: 'example-helm'
+        namespace: 'blog-ghost'
         token: '${{ github.token }}'
         helm: 'helm3'
       env:
