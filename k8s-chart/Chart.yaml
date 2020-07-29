@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A Helm chart for my Kubernetes app served at blog.claud.dev
+name: blog
+version: 1.0

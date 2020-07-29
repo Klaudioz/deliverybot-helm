@@ -15,7 +15,7 @@ jobs:
         release: 'review-myapp-${{ github.event.pull_request.number }}'
         version: '${{ github.sha }}'
         track: 'stable'
-        chart: 'app'
+        chart: 'k8s-chart'
         namespace: 'example-helm'
         token: '${{ github.token }}'
         helm: 'helm3'

@@ -1,0 +1,75 @@
+seURL = "https://blog.claud.dev"
+title = "Klaudioz's DevOps Blog"
+theme = "m10c"
+paginate = 5
+enableEmoji = true
+
+[[menu.main]]
+        name    = "Home"
+        url     = "/"
+        weight  = -1
+
+[[menu.main]]
+        name    = "Blog"
+        url     = "/blog/"
+        weight  = 5
+
+[[menu.main]]
+        name    = "Projects"
+        url     = "/projects/"
+        weight  = 10
+
+[[menu.main]]
+        name    = "About"
+        url     = "/about/"
+        weight  = 20
+
+[params]
+  author = "Klaudioz"
+  description = "What I'm learning today"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/klaudioz"
+    weight = 1
+
+  [[params.social]]
+    name = "gitlab"
+    url = "https://gitlab.com/klaudioz"
+    weight = 2
+
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/canalesclaudio/"
+    weight = 3
+
+  # Brown theme
+  [params.style]
+    darkestColor = "#463625"
+    darkColor = "#2a3738"
+    primaryColor = "#eeee6a"
+    lightColor = "#96a879"
+    lightestColor = "#ffffff"
+
+  # Green theme
+  #[params.style]
+  #  darkestColor = "#315659"
+  #  darkColor = "#253031"
+  #  primaryColor = "#dad865"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#fff"
+
+  # Red and black theme
+  #[params.style]
+    #darkestColor = "#d35050"
+    #darkColor = "#212121"
+    #primaryColor = "#ffffff"
+    #lightColor = "#a2a2a2"
+    #lightestColor = "#d3d3d3"
+
+# add footer contents here
+[[params.footer]]
+    name = "221B, Baker Street"
+    url = false
+[[params.footer]]
+    name = "Mail"
+    url = "mailto:"
