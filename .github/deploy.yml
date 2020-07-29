@@ -39,7 +39,7 @@ staging:
   description: 'Staging'
   payload:
     value_files: ["./config/staging.yml", "./config/_common.yml"]
-    release: staging-ghost
+    release: blog
     namespace: blog-ghost
     track: stable
     values:
